@@ -1,0 +1,25 @@
+# Logs e dados locais da rede
+logs/
+*.log
+*.csv
+
+# Arquivos de backup
+*.bak
+*_backup.py
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Configurações e segredos
+.env
+.env.*
+!.env.example
+
+# Editores e sistema operacional
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
